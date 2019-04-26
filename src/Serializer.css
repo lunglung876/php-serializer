@@ -1,0 +1,47 @@
+.serializer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.serializer__textarea {
+    resize: none;
+    height: 400px;
+    width: 100%;
+    border-color: lightgray;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.serializer__error {
+    color: red;
+}
+
+.result-format-toggle__label {
+    position: relative;
+    background-color: #FFF;
+    border: solid 1px lightgray;
+    border-right-width: 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.result-format-toggle__label:last-child {
+    border-right-width: 1px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.result-format-toggle__label:first-child {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.result-format-toggle__label--active {
+    background-color: #61dafb;
+}
+
+.result-format-toggle__radio {
+    position: absolute;
+    clip: rect(0,0,0,0);
+    pointer-events: none;
+}
