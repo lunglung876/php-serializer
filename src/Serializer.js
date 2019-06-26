@@ -120,13 +120,6 @@ class Serializer extends React.Component
                                onChange={this.handleChange}
                         /> YAML
                     </label>
-                    <label className={'result-format-toggle__label' + (this.state.resultFormat === 'phpArray' ? ' result-format-toggle__label--active' : '')}>
-                        <input type="radio" name="resultFormat" value="phpArray"
-                               className="result-format-toggle__radio"
-                               checked={this.state.resultFormat === 'phpArray'}
-                               onChange={this.handleChange}
-                        /> PHP Array
-                    </label>
                 </div>
             </div>
         );
